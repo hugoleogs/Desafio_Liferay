@@ -54,3 +54,17 @@ export function App() {
   );
 }
 
+/* Considerações finais:
+
+Para melhorar a manipulação dos dados e a passagens de funções, poderiamos usar um Storage,
+por exemplo o Redux. 
+
+Já para nos auxiliar no css, poderiamos ter abordado utilizando uma biblioteca do React 
+conhecida como styled-components.
+
+Infelizmente não foi possivel concluir todas as funções solicitadas, então buscamos 
+implementar o basico, Busca, Adicionar, deletar
+
+Muito obrigado pelo desafio.
+
+*/
