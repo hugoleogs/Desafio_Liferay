@@ -1,0 +1,34 @@
+.card {
+    padding: 16px;
+    margin-bottom: 30px;
+}
+
+.grid{
+    display: grid;
+    width: 70%;
+    margin-left: 80px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.textMain1{
+
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    right: -30px;
+
+}
+.textMain2{
+
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    right: 20px;
+
+}
+.textMain3{
+
+    position: relative;
+    margin-top: 0px;
+    right: -90px;
+
+}
