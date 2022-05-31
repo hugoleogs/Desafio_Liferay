@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+# Desafio Liferay
+
+O objetivo do desafio é criar uma interface web onde será possível realizar uma requisição à API do GitHub para coletar os repositórios de usuários aleatórios.
+
+URL: 
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
