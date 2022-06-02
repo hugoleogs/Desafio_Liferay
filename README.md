@@ -2,7 +2,7 @@
 
 O objetivo do desafio é criar uma interface web onde será possível realizar uma requisição à API do GitHub para coletar os repositórios de usuários aleatórios.
 
-URL: # Vou hospedar o site em um servidor hj a noite e colocar o link aqui.
+URL: [AQUI](https://desafio-liferay.netlify.app/)
 
 
 ## Getting Started with Create React App
