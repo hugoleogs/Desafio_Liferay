@@ -2,6 +2,8 @@
 
 O objetivo do desafio é criar uma interface web onde será possível realizar uma requisição à API do GitHub para coletar os repositórios de usuários aleatórios.
 
+OBS: Para buscar um usuário do GitHub é preciso digitar o nome e clicar na lupa de pesquisa.
+
 URL: [AQUI](https://desafio-liferay.netlify.app/)
 
 
