@@ -4,7 +4,7 @@ O objetivo do desafio é criar uma interface web onde será possível realizar u
 
 OBS: Para buscar um usuário do GitHub é preciso digitar o nome e clicar na lupa de pesquisa.
 
-URL: [AQUI](https://desafio-liferay.netlify.app/)
+URL: [AQUI](https://desafio-liferay2.netlify.app/)
 
 
 ## Getting Started with Create React App
