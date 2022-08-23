@@ -58,6 +58,13 @@ function Head({addRepo, getApiGitRepos}){
                         aria-label="Search"
                         title="Type what you want to look for"
                         onChange={e => setNameUser(e.target.value)}
+                        onKeyPress = {e => {
+                            if(e.key === "Enter") {
+                                getApiGitRepos(nameUser)
+                                e.preventDefault()
+                                }
+                            }
+                        }
                     /> 
                     <FiSearch onClick={()=>getApiGitRepos(nameUser)} className='iconSearch' size={25}/> 
                     {/* Enviamos o nome para pegar os repositorios */}
