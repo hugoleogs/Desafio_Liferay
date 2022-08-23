@@ -8,9 +8,7 @@ import {v4} from 'uuid'
 export function App() {
 
   const api ={
-    baseUrl:"https://api.github.com",//após várias requisições realizada ao github, você pode ser barrado
-    client_id:"0eb1a46759948c6e14a2", //dessa forma precisamos usar as chaves de segurança para 
-    client_secret:"dc762c0f5017c869dd7c89cae01ea7355c7c3c58",//uma conexão boa
+    baseUrl:"https://api.github.com",
   }                                                   
 
   const [projects, setprojects] = useState([]) // uso de hooks nos auxilia na manipulação do array de projetos
@@ -42,6 +40,7 @@ export function App() {
       })
       .catch(function(error){
         console.log("GitHub temporarily unavailable")
+        setprojects([])
       })
 }
   //componentes de abetura
